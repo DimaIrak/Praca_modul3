@@ -1,0 +1,17 @@
+.section {
+    margin: 10px;
+    }
+
+.section__article {
+    font-family: initial;
+}
+
+.section__heder {
+    color: darkslategrey;
+    margin-bottom: -15px;
+    }
+
+.section__paragraf {
+    line-height: 2;
+    font-weight: 400;
+}

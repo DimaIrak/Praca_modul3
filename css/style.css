@@ -1,0 +1,136 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(169, 169, 169, 0.101);
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.dark {
+    background-color: #4682b463;
+}
+
+.header {
+    font-size: 25px;
+    border: 3px solid #4caf50;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 28px 16px rgba(71, 158, 89, 0.30);
+    max-width: 90%;
+    margin: auto;
+}
+
+.header__head {
+    font-style: italic;
+    text-shadow: 0px 2px 0px #a5e1ad;
+}
+
+.navigation {
+    padding-top: 20px;
+    border-bottom: 30px;
+}
+
+.navigation__unorderedList {
+    line-height: 2;
+    list-style: none;
+    padding: 20px 0px 250px 17px;
+    background: url(https://i.postimg.cc/YqTfH5WT/martin-katler-Wy-GUO1k7-AEQ-unsplash.jpg) center no-repeat;
+    background-size: auto;
+    margin-bottom: 40px;
+}
+
+.navigation__link {
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    color: blue;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.navigation__link:active {
+    color: crimson;
+}
+
+.button {
+    border-radius: 50%;
+    padding: 5px 20px;
+    background-color: moccasin;
+    cursor: pointer;
+}
+
+.mask {
+    text-decoration: none;
+}
+
+.mask:hover {
+    color: blueviolet;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.mask:active {
+    color: crimson;
+}
+
+.information {
+    color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.table__caption {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.table__cell {
+    border: 2px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+
+.table__cell--head {
+    background-color: rgba(127, 255, 212, 0.362);
+    color: chocolate;
+}
+
+.table__row:nth-child(even) {
+    background-color: #eee;
+}
+
+.table__cell:hover {
+    color: royalblue;
+}
+
+.tableContainer {
+    overflow-x: auto;
+}
+
+.footer {
+    font-size: 39px;
+    border: 3px solid #af864c83;
+    text-align: center;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    box-shadow: inset 5px 5px 28px 16px rgba(158, 155, 71, 0.3);
+    margin-bottom: 50px;
+}
+
+.footer__link {
+    text-decoration: none;
+}
