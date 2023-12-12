@@ -1,4 +1,9 @@
-console.log("Hej");
+function welcome() {
+    console.log("Hej");
+}
+
+welcome();
+
 let button = document.querySelector(".button");
 let body = document.querySelector(".body");
 let themeName = document.querySelector(".themeName");
